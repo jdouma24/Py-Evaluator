@@ -1,0 +1,11 @@
+//Nathan Ho and Jacob Douma
+
+once code is downloaded and loaded, hit run.
+
+If using different files, either update in.txt with
+appropriate information, or add file into project and provide the
+appropriate name in console when prompted after running.
+
+If no output file name is provided, an output file will be created
+
+Division by 0 is not allowed and subtraction will evaluate to values >= 0

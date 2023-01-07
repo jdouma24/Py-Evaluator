@@ -1,0 +1,25 @@
+LINE : 3 * (5 + 10 / 3 - 4)
+NUMBER : 3
+SYMBOL : *
+SYMBOL : (
+NUMBER : 5
+SYMBOL : +
+NUMBER : 10
+SYMBOL : /
+NUMBER : 3
+SYMBOL : -
+NUMBER : 4
+SYMBOL : )
+
+AST:
+* : SYMBOL
+  3 : NUMBER
+  + : SYMBOL
+    5 : NUMBER
+    - : SYMBOL
+      / : SYMBOL
+        10 : NUMBER
+        3 : NUMBER
+      4 : NUMBER
+
+Output: 15
